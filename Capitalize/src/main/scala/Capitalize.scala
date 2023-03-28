@@ -1,7 +1,8 @@
 package com.knoldus.capitalize
+
 import scala.util.{Failure, Success, Try}
 
-object Capitalize extends App {
+object Capitalize {
 
   // Function to convert all the 'a' to capital 'A' in all strings in the list.
   def capitalizeTheLetterA(list: List[String]): List[String] = {
